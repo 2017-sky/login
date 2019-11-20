@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form method="get" action="/login1">
+    账号：<input type="text" name="name"  th:value="${session.msg1}" /><br/>
+    密码：<input type="text" name="password" th:value="${session.msg2}" /></p><br/>
+    <input type="submit" value="登录" />
+
+</form>
+
+</body>
+</html>
